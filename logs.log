@@ -13398,3 +13398,42 @@ Alternately, you can install this by running `pip install pycaret[models]`
                                     transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
          verbose=False)
 2026-05-09 22:43:09,395:INFO:Creating final display dataframe.
+2026-05-09 22:43:14,682:WARNING:e:\miniconda\envs\LangChain\Lib\site-packages\pycaret\internal\pipeline.py:289: UserWarning: Persisting input arguments took 4.89s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  X, y = self._memory_full_transform(
+
+2026-05-09 22:43:17,263:WARNING:e:\miniconda\envs\LangChain\Lib\site-packages\pycaret\internal\pipeline.py:289: UserWarning: Persisting input arguments took 2.17s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  X, y = self._memory_full_transform(
+
+2026-05-09 22:43:17,608:INFO:Setup _display_container:                     Description             Value
+0                    Session id                85
+1                        Target              FLAG
+2                   Target type            Binary
+3           Original data shape        (9841, 50)
+4        Transformed data shape        (9841, 50)
+5   Transformed train set shape        (6888, 50)
+6    Transformed test set shape        (2953, 50)
+7              Numeric features                46
+8          Categorical features                 3
+9      Rows with missing values             27.6%
+10                   Preprocess              True
+11              Imputation type            simple
+12           Numeric imputation              mean
+13       Categorical imputation              mode
+14     Maximum one-hot encoding                25
+15              Encoding method              None
+16               Fold Generator   StratifiedKFold
+17                  Fold Number                10
+18                     CPU Jobs                -1
+19                      Use GPU             False
+20               Log Experiment             False
+21              Experiment Name  clf-default-name
+22                          USI              f63a
+2026-05-09 22:43:18,097:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-09 22:43:18,101:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-05-09 22:43:18,411:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-09 22:43:18,424:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-05-09 22:43:18,436:INFO:setup() successfully completed in 12.54s...............
